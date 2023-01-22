@@ -1,0 +1,79 @@
+nav{
+    position:sticky;top:0;
+}
+.lis{
+    display:inline-block;
+    font-size: 30px;
+    padding-left:35px;
+    padding-top:40px;
+}
+
+h1{
+    font-size:40px;
+    color:black;
+    padding-bottom:0px;
+
+}
+
+p{
+    font-size: 30px;
+    color:blue;
+}
+nav{
+    background-color: black
+}
+
+a{
+    color:white;
+}
+
+.head{
+    font-size: 50px;
+    color:black;
+
+
+}
+
+.pic1{
+    padding-top:10px;
+    padding-left:35px;
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+.div{
+    display:flex;
+}
+
+
+
+.main_head{
+    font-size: 60px;
+    color:black;
+    background-color:white;
+}
+
+.list2{
+    color:blue;
+    font-size:30px;
+}
+
+form{
+    font-size:30px;
+    color:blue;
+}
+
+#id1{
+    color:blue;
+    font-size: 30px;
+}
+
+.form_us{
+    font-size:30px;
+    color:blue;
+}
+
+.pic2{
+    width:460px;
+}
+

@@ -1,0 +1,70 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+    <head><title>Intro</title></head>
+
+    <body>
+        <center><h1 class="main_head">Circles</h1></center>
+        <nav>
+            <ul>
+                <div class="div">
+                    <div><li class=".lis"><img src ="https://www.schoolmykids.com/smk-media/2018/07/Somerville-School-Noida.png"class="pic1"></img></li></div>
+                    <div><li class="lis"><a href="Home.html">Home</a></li></div>
+                    <div><li class="lis"><a href="Quiz.html" >Quiz</a></li></div>
+                    <div><li class="lis"><a href="Contact Us.html">Contact Us</a></li></div>
+                </div>
+            </ul>
+        </nav>
+        <h1 class="head">Fun Quiz</h1>
+        <p>Given below is a quiz to check your knowledge on the topic Circles.Only one option is correct.Good luck!</p>
+
+
+        <form>
+            1.What is used to make a circle on a sheet of paper<br>
+            <input type="radio" name="quiz1">Scale
+            <input type="radio" name="quiz1">Protractor
+            <input type="radio" name="quiz1">Compass
+
+            <br>
+            <br>
+
+            2.What is the line from center of the circle touching the circumference called?<br>
+            <input type="radio" name="quiz2">Radius
+            <input type="radio" name="quiz2">Diameter
+            <input type="radio" name="quiz2">Point
+
+            <br>
+            <br>
+
+            3.What is the value of π (in decimal):<br>
+            <input type="radio" name="quiz3">6.022
+            <input type="radio" name="quiz3">3.14
+            <input type="radio" name="quiz3">6.673
+
+            <br>
+            <br>
+
+            4.How can we take out the the circumference of a circle?<br>
+            <input type="radio" name="quiz4">πr^2
+            <input type="radio" name="quiz4">2πr
+            <input type="radio" name="quiz4">πr^2h
+
+            <br>
+            <br>
+
+            5.The circumference of the circle is 220 cm. What is the length of the radius.<br>
+            <input type="radio" name="quiz5">35 cm
+            <input type="radio" name="quiz5">70 cm
+            <input type="radio" name="quiz5">7 cm
+
+            <br>
+            <br>
+        </form>
+
+    <button onclick="answers();"style="font-size:20px;">Check answers</button>
+    <div id="id1"></div>
+    <script>
+    function answers(){
+        document.getElementById("id1").innerHTML="1. Compass<br>2. Radius<br>3. 3.14<br>4. 2πr<br>5. 35cm";}
+    </script>
+    </body>
+</html>
